@@ -1,4 +1,4 @@
-## [A Facial Expression-Aware Multimodal Multi-task Learning Framework for Emotion Recognition in Multi-party Conversations](https://aclanthology.org/2023.acl-long.861.pdf)
+## [A Facial Expression-Aware Multimodal Multi-task Learning Framework for Emotion Recognition in Multi-party Conversations]
 
 <i>Wenjie Zheng, Jianfei Yu, Rui Xia, and Shijin Wang</i>
 
@@ -6,6 +6,8 @@
 [![Conference](https://img.shields.io/badge/ACL-2023-green)](https://2023.aclweb.org/)
 [![License](https://img.shields.io/badge/license-GPLv3-blue)](./LICENSE)
 </div>
+
+📄 [Paper](https://aclanthology.org/2023.acl-long.861.pdf) | 🎥 [Slides](https://assets.underline.io/lecture/77034/slideshow/632a8d03e3cf76732005efac499155c2.pdf)   
 
 This repository contains the data and code for FacialMMT, a framework that uses facial sequences of real speaker to help multimodal emotion recognition.
 
