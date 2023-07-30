@@ -9,7 +9,7 @@
 
 This repository contains the data and code for FacialMMT, a framework that uses facial sequences of real speaker to help multimodal emotion recognition.
 
-![overview.png](utils/overview.jpg)
+![overview.png](utils/overview_FacialMMT.jpg)
 - **Facial sequences of real speaker in MELD dataset**: In this part, we will provide the data of extracted real speaker's facial sequences using our first-stage approach. 
 - **A multimodal facial expression-aware multi-task learning model**: In this part, we will provide the source code and pre-trained models for ease of both direct evaluation and training from scratch.
 
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 - For ease of reproducibility, you can download the corresponding data and models from the link below and organize it as follows. Afterwards, you should modify the `FacialMMT/preprocess_data/T+A+V/*_facseqs_160_paths_final.json` file to your own path.
 
 Download link: [Baidu Netdisk](), [Google Drive]() 
-
+```
 FacialMMT
 ├── preprocess_data
 │   ├── T+A+V
@@ -77,7 +77,7 @@ FacialMMT
 │   ├── FacialMMT-BERT
 │   │   ├── multimodal_T+A+V_BERT.pt
 │   │   ├── best_swin_BERT.pt
-
+```
 ***
 
 ### Evaluating pretrained model
