@@ -111,7 +111,7 @@ python main.py --choice_modality T+A+V --plm_name roberta-large
 
 ### Citation
 
-Please cite the following if this repo is helpful to your research.
+Please consider citing the following if this repo is helpful to your research.
 ```
 @inproceedings{zheng2023facial,
   title={A Facial Expression-Aware Multimodal Multi-task Learning Framework for Emotion Recognition in Multi-party Conversations},
