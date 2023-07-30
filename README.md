@@ -75,25 +75,29 @@ FacialMMT
 ```
 ***
 
-### Evaluating pretrained model
+### Evaluating FacialMMT on the test set of MELD
+(These results are different from that in our paper because we train the model again)
 
-#### multimodal emotion recognition
+#### Multimodal Emotion Recognition
 you can check our FacialMMT-RoBERTa by running the script below.
 ```
 python main.py --choice_modality T+A+V --plm_name roberta-large --load_multimodal_path FacialMMT-RoBERTa/multimodal_T+A+V_RoBERTa.pt --load_swin_path FacialMMT-RoBERTa/best_swin_RoBERTa.pt --doEval 1
 ```
+you can get the following W-F1 result: `66.73`
 
 To evaluate the performance of FacialMMT-BERT, run the script below.
 ```
 python main.py --choice_modality T+A+V --plm_name bert-large --load_multimodal_path FacialMMT-BERT/multimodal_T+A+V_BERT.pt --load_swin_path FacialMMT-BERT/best_swin_BERT.pt --doEval 1
 ```
+you can get the following W-F1 result: `64.87`
 
-#### visual emotion recognition
+#### Visual Emotion Recognition
 
 Furthermore, we provide a uni-model that uses only the visual modality to evaluate the effectiveness of our own extracted visual data (facial sequences of real speaker).
 ```
 python main.py --choice_modality V --load_unimodal_path FacialMMT-unimodal/unimodal_model_V.pt --doEval 1
 ```
+you can get the following W-F1 result: `36.53`
 
 ### Training from scratch
 1. First, you need to personally obtain the auxiliary dataset Aff-Wild2. You can find the dataset [here](https://ibug.doc.ic.ac.uk/resources/cvpr-2022-3rd-abaw/).
@@ -106,7 +110,7 @@ python main.py --choice_modality V --load_unimodal_path FacialMMT-unimodal/unimo
 ```
 python main.py --choice_modality T+A+V --plm_name roberta-large
 ```
-(We trained on a single 3090ti with batch_size=1. If your hardware allows, we recommend setting a larger batch_size to speed up training.)
+(We trained on a single 3090Ti with `batch_size=1`. If your hardware allows, we recommend setting a larger batch_size to speed up training.)
 ***
 
 ### Citation
