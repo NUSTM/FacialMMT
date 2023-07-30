@@ -31,11 +31,6 @@ pip install -r requirements.txt
 
 ***
 
-### Facial sequences of real speaker in MELD dataset
-
-- 
-
-
 ### Data and pretrained models preparation
 
 - For ease of reproducibility, you can download the corresponding data and models from the link below and organize it as follows. Afterwards, you should modify the `FacialMMT/preprocess_data/T+A+V/*_facseqs_160_paths_final.json` file to your own path.
