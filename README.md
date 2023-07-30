@@ -1,4 +1,4 @@
-## [A Facial Expression-Aware Multimodal Multi-task Learning Framework for Emotion Recognition in Multi-party Conversations]
+## A Facial Expression-Aware Multimodal Multi-task Learning Framework for Emotion Recognition in Multi-party Conversations
 
 <i>Wenjie Zheng, Jianfei Yu, Rui Xia, and Shijin Wang</i>
 
