@@ -56,7 +56,7 @@ FacialMMT
 │   │   ├── meld_unimodal_test_V.dt
 │   │   ├── meld_unimodal_val_V.dt
 │   │   ├── meld_unimodal_train_V.dt
-├── preprocess_model
+├── pretrained_model
 │   ├── roberta-large
 │   │   ├── xxx
 │   │   ├── xxx
