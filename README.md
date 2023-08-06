@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 - For ease of reproducibility, you can download the corresponding data and models from the link below and organize it as follows. Afterwards, you should modify the `FacialMMT/preprocess_data/T+A+V/*_facseqs_160_paths_final.json` file to your own path.
 
-Download link: [BaiduNetdisk](https://pan.baidu.com/s/1qBWIM34LU5pstlv6vBL8Gg?pwd=dr8p)
+Download link: [BaiduNetdisk](https://pan.baidu.com/s/1KRNyPoFf9_WUtrQ6f86IkQ?pwd=iui6)
 ```
 FacialMMT
 ├── preprocess_data
