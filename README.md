@@ -44,12 +44,12 @@ Download link: [BaiduNetdisk](https://pan.baidu.com/s/1KRNyPoFf9_WUtrQ6f86IkQ?pw
 FacialMMT
 ├── preprocess_data
 │   ├── T+A+V
-│   │   ├── meld_multimodal_test_T+A+V_roberta-large.dt
-│   │   ├── meld_multimodal_val_T+A+V_roberta-large.dt
-│   │   ├── meld_multimodal_train_T+A+V_roberta-large.dt
-│   │   ├── meld_multimodal_test_T+A+V_bert-large.dt
-│   │   ├── meld_multimodal_val_T+A+V_bert-large.dt
-│   │   ├── meld_multimodal_train_T+A+V_bert-large.dt
+│   │   ├── meld_train_vision_utt.pkl
+│   │   ├── meld_val_vision_utt.pkl
+│   │   ├── meld_test_vision_utt.pkl
+│   │   ├── meld_train_audio_utt.pkl
+│   │   ├── meld_val_audio_utt.pkl
+│   │   ├── meld_test_audio_utt.pkl
 │   │   ├── test_utt_profile.json
 │   │   ├── val_utt_profile.json
 │   │   ├── train_utt_profile.json
@@ -57,9 +57,9 @@ FacialMMT
 │   │   ├── val_facseqs_160_paths_final.json
 │   │   ├── train_facseqs_160_paths_final.json 
 │   ├── V
-│   │   ├── meld_unimodal_test_V.dt
-│   │   ├── meld_unimodal_val_V.dt
-│   │   ├── meld_unimodal_train_V.dt
+│   │   ├── meld_train_vision_utt.pkl
+│   │   ├── meld_val_vision_utt.pkl
+│   │   ├── meld_test_vision_utt.pkl
 ├── pretrained_model
 │   ├── roberta-large
 │   │   ├── xxx
