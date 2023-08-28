@@ -18,6 +18,13 @@ This repository contains the data and code for FacialMMT, a framework that uses 
 - **A multimodal facial expression-aware multi-task learning model**: In this part, we will provide the source code and pre-trained models for ease of both direct evaluation and training from scratch.
 
 ***
+### Demo :computer:
+
+<p align="center">
+  <img src="utils/demo.gif" width="800" height="600" alt="MER Demo via FacialMMT">
+</p>
+
+***
 
 ### Dependencies
 
