@@ -14,7 +14,7 @@ This repository contains the data and code for FacialMMT, a framework that uses 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-facial-expression-aware-multimodal-multi/emotion-recognition-in-conversation-on-meld)](https://paperswithcode.com/sota/emotion-recognition-in-conversation-on-meld?p=a-facial-expression-aware-multimodal-multi)
 
 ![overview.png](utils/overview.jpg)
-- **Facial sequences of real speaker in [MELD](https://affective-meld.github.io/) dataset**: In this part, we will provide the data of extracted real speaker's facial sequences using our first-stage approach. 
+- **[Real speaker's facial sequence](https://pan.baidu.com/s/1ZvEYYjAV16j2eLWNsQiX0w?pwd=awx7) in [MELD](https://affective-meld.github.io/) dataset**: In this part, we will provide the data of extracted real speaker's facial sequences using our first-stage approach. 
 - **A multimodal facial expression-aware multi-task learning model**: In this part, we will provide the source code and pre-trained models for ease of both direct evaluation and training from scratch.
 
 ***
