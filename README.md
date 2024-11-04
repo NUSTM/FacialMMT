@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/license-GPLv3-blue)](./LICENSE)
 </div>
 
-📄 [Paper](https://aclanthology.org/2023.acl-long.861.pdf) | 🎥 [Slides](https://assets.underline.io/lecture/77034/slideshow/632a8d03e3cf76732005efac499155c2.pdf)   
+📄 [Paper](https://aclanthology.org/2023.acl-long.861.pdf) | 🎥 [Slides](slides.pdf)   
 
 This repository contains the data and code for FacialMMT, a framework that uses facial sequences of real speaker to help multimodal emotion recognition.
 
